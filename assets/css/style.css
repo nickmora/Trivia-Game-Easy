@@ -1,8 +1,18 @@
+#topText{
+    margin-top: 200px;
+    background-color: #ffffff;
+    border: solid;
+    border-color: #888888;
+    border-width: 5px;
+    border-radius: 15px;
+}
+
 .timer{
     position: relative;
-    left: 0;
-    top :0;
+    left: 15px;
+    top : 120px;
     position: fixed;
+
 }
 
 .artQuestion {
@@ -23,6 +33,7 @@
     border-width: 10px;
     border-radius: 7px;
     padding: 10px;
+    background-color: #ffffff;
 }
 
 h3 {
@@ -31,4 +42,56 @@ h3 {
     border-width: 5px;
     border-radius: 15px;
     margin: 20px;
+}
+
+button {
+    padding: 10px;
+    margin: 35px;
+}
+
+.right {
+    background-color: green;
+}
+
+.wrong{
+    background-color: red;
+}
+
+#timerDisplay{
+    width: 330px;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+.unhide{
+    background: #ffffff;
+    border: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: #777777;
+    padding: 10px; 
+}
+
+.rillrill{
+    background: #ffffff;
+    border: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: #777777;
+    margin: 30px;
+    padding: 50px;
+}
+
+.logo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding: 25px;
+    color: #e60d2e;
+}
+
+body{
+    background-image: url("../../../../nickmora.github.io/assets/images/oriental.png");
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
 }
